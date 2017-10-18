@@ -13,8 +13,10 @@ namespace Excel.AddIn.Shape2Image
 
         }
 
-        private void SaveAsPicture_Click(object sender, RibbonControlEventArgs e)
+        private void RibbonButton_Click(object sender, RibbonControlEventArgs e)
         {
+            RibbonButton control = sender as RibbonButton;
+            new Liaison() { ControlId = control.Id }.Entrust();
         }
     }
 }

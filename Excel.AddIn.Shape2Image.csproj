@@ -152,9 +152,12 @@
     can be found.
   -->
   <ItemGroup>
+    <Compile Include="Liaison.cs" />
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="ShapeBuffer.cs" />
+    <Compile Include="Workspace.cs" />
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>

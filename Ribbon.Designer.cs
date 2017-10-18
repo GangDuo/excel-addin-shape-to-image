@@ -60,7 +60,7 @@
             this.SaveAsPicture.Name = "SaveAsPicture";
             this.SaveAsPicture.OfficeImageId = "ImagerScan";
             this.SaveAsPicture.ShowImage = true;
-            this.SaveAsPicture.Click += new Microsoft.Office.Tools.Ribbon.RibbonControlEventHandler(this.SaveAsPicture_Click);
+            this.SaveAsPicture.Click += new Microsoft.Office.Tools.Ribbon.RibbonControlEventHandler(this.RibbonButton_Click);
             // 
             // Ribbon
             // 
