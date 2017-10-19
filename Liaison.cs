@@ -23,7 +23,8 @@ namespace Excel.AddIn.Shape2Image
             var workspace = new Workspace();
             workspace.Open();
             Worksheet activeSheet = Globals.ThisAddIn.Application.ActiveSheet;
-            var shapes = activeSheet.Shapes.Cast<Shape>().Where(x => x.Name.StartsWith("Picture")).ToArray();
+
+            var shapes = activeSheet.Shapes.Cast<Shape>().Where(shape => new AllowedShape(shape).CanAllow()).ToArray();
             foreach (Shape shape in shapes)
             {
                 // Shapeの右隣をファイル名として使用する
