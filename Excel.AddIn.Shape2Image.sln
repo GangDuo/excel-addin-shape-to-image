@@ -1,7 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2010
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Excel.AddIn.Shape2Image", "Excel.AddIn.Shape2Image.csproj", "{39BE4EAC-EFF7-4B12-9C50-9D84ABCFF8D9}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Setup", "Setup\Setup.vdproj", "{A40F9102-EFC4-44B4-BCA6-787500A4CCB6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,8 +17,13 @@ Global
 		{39BE4EAC-EFF7-4B12-9C50-9D84ABCFF8D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{39BE4EAC-EFF7-4B12-9C50-9D84ABCFF8D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{39BE4EAC-EFF7-4B12-9C50-9D84ABCFF8D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A40F9102-EFC4-44B4-BCA6-787500A4CCB6}.Debug|Any CPU.ActiveCfg = Debug
+		{A40F9102-EFC4-44B4-BCA6-787500A4CCB6}.Release|Any CPU.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7EB17709-5B90-4368-831F-626DF73761C5}
 	EndGlobalSection
 EndGlobal
